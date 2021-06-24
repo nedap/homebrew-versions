@@ -4,13 +4,8 @@ class GettextAT0202 < Formula
   url "https://ftp.gnu.org/gnu/gettext/gettext-0.20.2.tar.xz"
   mirror "https://ftpmirror.gnu.org/gettext/gettext-0.20.2.tar.xz"
   sha256 "b22b818e644c37f6e3d1643a1943c32c3a9bff726d601e53047d2682019ceaba"
+  license "GPL-3.0"
   revision 1
-
-  bottle do
-    sha256 catalina:    "71f4ded03e8258b5e6896eebb00d26ed48307fbebece1a884b17ca3fb40e3121"
-    sha256 mojave:      "52067198cab528f05fdc0b06f7b9711f7614f60a7361f1e764c4f46d3342ff22"
-    sha256 high_sierra: "4a999c75dcc53cbc711e3ac6545db69ab3aeca6c29c1cb6b21c353f237342457"
-  end
 
   uses_from_macos "ncurses"
 
